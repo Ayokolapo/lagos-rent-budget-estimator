@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+
+/vdash
+vdash/
+/vdashk
+/Lib
+Lib/
+Scripts/
+/Scripts
+
+Compressing*
+Launching*

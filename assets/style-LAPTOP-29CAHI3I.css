@@ -1,0 +1,286 @@
+
+
+body {
+  background-color: #17202d;
+  margin: 5%;
+}
+
+.card_container {
+  border-radius: 5px;
+  background-color: #202a3b;
+  margin: 12px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #202a3b;
+}
+
+.individual_container{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 15px;
+  /*margin-left: 0px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding: 10px;*/
+  padding: 10px;
+  position: relative;
+}
+
+
+
+.gauge-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  column-gap: 15px;
+  padding: 10px;
+  position: relative;
+}
+
+.estimate_container {
+  border-radius: 5px;
+  background-color: #202a3b;
+  width: 945px;
+  margin-left: 16px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #202a3b;
+}
+
+#budget_estimate{
+  /*background-color: #202a3b;*/
+  margin-left: 16px;
+  padding: 4.0rem;
+  position: relative;
+  margin-top: 10.1rem;
+  /*box-shadow: 2px 2px 2px #202a3b;*/
+}
+
+
+.budget_container{
+  background-color: #202a3b;
+  width: 71.8vh;
+  height: 49.8vh;
+  column-gap: 15px;
+  /*width: 40.5%;
+  height: 100%;
+  margin-left: 16px;*/
+  text-align: center;
+  /*padding: 15px;
+  padding: 2rem;*/
+  position: relative;
+  box-shadow: 2px 2px 2px #202a3b;
+}
+
+
+
+.datasource {
+  width: 77%;
+  /*margin-left: 16px;*/
+  padding: 50px;
+  position: relative;
+}
+
+
+.graph {
+  width: 50%;
+}
+
+.graph img {
+  width: 100%;
+}
+
+.create_container {
+  border-radius: 5px;
+  background-color: #202a3b;
+  margin: 15px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #202a3b;
+}
+
+.create_container1 {
+  border-radius: 5px;
+  background-color: #202a3b;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 2px 2px 2px #202a3b;
+}
+
+.dcc_compon {
+  margin: 10;
+  padding: 5px;
+  width: 10%;
+  margin-bottom: 10px;
+  color:#17202d;
+}
+
+
+
+.fix_label {
+font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100%-40px);
+}
+
+.flex-display {
+  display: flex;
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+#refresh-data {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#title {
+  text-align: center;
+}
+
+#title1 {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #1f2c56;
+  color: white;
+
+}
+
+.Select-control{
+  border: 0.5px solid green;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1f2c56 !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #192444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white !important;
+}
+
+
+@media (max-width:480px)  { 
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #sunburst_chart { 
+    margin-left: 0px;
+  }
+  #bar_chart { 
+    margin-left: 0px;
+  } 
+  .graph-container { 
+    width: 100%;
+    margin-left: 0rem;
+    column-gap: 0px;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  .card-container { 
+    width: 100%;
+    margin-left: 0rem;
+    column-gap: 0px;
+    justify-content: space-between;
+    padding:0px
+  }
+
+  .gauge-container { 
+    width: 100%;
+    margin-top: 5em;
+    margin-left: 0rem;
+    column-gap: 0px;
+    justify-content: space-between;
+    padding:0px
+  }
+  .bar { 
+    width: 100%;
+    margin-top:1em;
+    column-gap: 0px;
+    padding:0px
+  }
+  .sunburst { 
+    width: 100%;
+    margin-top:1em;
+    column-gap: 0px;
+    padding:0px
+  }
+  .budget_container{
+    /*width: 40.5%;
+    height: 100%;
+    margin-left: 16px;*/
+    /*padding: 15px;
+    padding: 2rem;*/
+    margin-top: 1rem;
+    position: relative;
+  }
+  
+}
+
+
+/*@media (max-width:480px)  {  
+  #sunburst_chart { 
+    margin-left: 0px;
+  }
+}
+@media (max-width:480px)  {  
+  #bar_chart { 
+    margin-left: 0px;
+  }
+}*/
+
+
+
+/*@media (max-width:1440px)  { */
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+ /* .graph-container { 
+    width: 100%;
+  }
+}*/
